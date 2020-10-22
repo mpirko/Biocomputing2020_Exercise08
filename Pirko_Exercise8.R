@@ -25,7 +25,7 @@ legend("bottomright", inset=.05, title= "Team",
 
 #Guess my number game
 print("I'm thinking of a number 1-100:")
-guess <- function(x) {
+numbergame <- function(x) {
   #set the population size from 1-100
   x<-sample(1:100, size=1)
   #counts down by 1
